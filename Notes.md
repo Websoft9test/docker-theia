@@ -1,6 +1,13 @@
-## About
+# Theia
 
-This repository is forked from ONLYOFFICE/Docker-CommunityServer, we have the following modifications are provided
+## 要点
 
-* replace README.md
-* add README-zh.md, CHANGELOG.md, Note.md, License.md, docker-compose.yml,.env, src, .github folder
+### 挂载
+
+官方关于挂载的描述是错误的，真正的项目目录为：/home/project  
+
+由于涉及权限问题，需采用 volume mount
+
+### 登录
+
+应用目前没有登录功能
